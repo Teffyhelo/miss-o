@@ -1,5 +1,5 @@
 :root{
-    --cor-fundo:#faf3f3;
+    --cor-fundo:#7803e6;
     --cor-principal:#5c065f;
     --cor-secundaria:#000000;
     --cor-destaque:#90099c;
@@ -8,4 +8,11 @@
 body{
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
